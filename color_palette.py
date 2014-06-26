@@ -13,7 +13,7 @@ method=input("enter the method\n1 for average \n2 for precise\n")
 for infile in dirList:
     l=r=u=b=0
     box=(l,u,r,b)
-    im=Image.open(path+"/INPUT/"+infile)
+    im=Image.open(path+"/input/"+infile)
     f, e = os.path.splitext(infile)
     A=im.load()
     s=im.size
